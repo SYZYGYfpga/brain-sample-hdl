@@ -1,0 +1,10 @@
+# We use a VIVADO folder to contain all the generated files/folders
+*/VIVADO/*
+
+# Ignore all the generated files in the block design folder
+*/hdl/block_design/*
+# We do want to grab the actual block design file
+!*/hdl/block_design/*bd
+
+# Do grab the clk_wiz IP XCI file
+!**xci
